@@ -856,6 +856,7 @@ section {
 #skills .progress {
   height: 35px;
   margin-bottom: 10px;
+  border-radius: 50px;
 }
 
 #skills .progress .skill {
@@ -876,6 +877,21 @@ section {
   width: 1px;
   text-align: left;
   transition: .9s;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+#skills .progress-bar2{
+  height: 100%;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #3264f5;
+  background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+  background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+  background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
 }
 
 /* Facts Section
@@ -1163,7 +1179,7 @@ section {
 }
 
 #clients img {
-  max-width: 100%;
+  max-width: 60%;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
