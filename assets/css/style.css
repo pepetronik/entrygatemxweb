@@ -28,6 +28,7 @@ a:hover, a:active, a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  /* font-size: large; */
   /* text-align: justify; */
 }
 
@@ -647,8 +648,8 @@ section {
 }
 
 #featured-services h4 {
-  font-weight: 400;
-  margin: 15px 0;
+  font-weight: bold;
+  margin: 18px 0;
   font-size: 18px;
 }
 
@@ -661,7 +662,7 @@ section {
 }
 
 #featured-services p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #fff;
   margin-bottom: 0;
@@ -755,11 +756,12 @@ section {
 }
 
 #about .about-col p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
+  text-align: justify;
 }
 
 /* Services Section
@@ -801,7 +803,7 @@ section {
 }
 
 #services .description {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
